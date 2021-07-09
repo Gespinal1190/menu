@@ -10,17 +10,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" id="admin.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/3.8.1/compiled.min.css?ver=3.8.1-update.4" type="text/css" media="all">
-    <link rel="manifest" href="css/button.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/container.css" >
 </head>
-<body>
-  
 
-<header>
-  <h1 class="k">
-    nombre del plato , descripcion, precio 
+
+<bod>
+<div class="fondo">
+ <header>
+  <h1 class="header">
+    Escanea el QR o busca el negocio
   </h1>
-</header>
-  
+
+   
+<div class="col-lg-12">
   <div class="input-group">
     <div class="form-outline">
       <input type="search" id="form1" class="form-control" />
@@ -29,24 +31,25 @@
     <button type="button" class="btn btn-primary">
       <i class="fas fa-search"></i>
     </button>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" class= "fistbutton">
+         <a class="btn btn-primary"  href="#" role="button">Ver listado de negocios</a>
+  
+         <input class="btn btn-primary" type="button"
+         onclick="init(HTMLAnchorElement)"
+         value="MENU">
+        </div>
+      </div>
+   </div>
+
+  </div>
+   </header>
   </div>
 
 
-  <div>
-
-    <a class="btn btn-primary" href="/menu.js" role="button">ver codigo scrapers</a>
-
-    <input type="button"
-    onclick="init(HTMLAnchorElement)"
-     value="MENU">
-    
-  </div>
-
- <div class="k">
-   <h3 >
-     hola
-   </h3>
- </div>
+</div>
 
 </body>
 </html>
