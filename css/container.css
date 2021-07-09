@@ -18,7 +18,8 @@
 }
 
 .container{
-    text-align: center;
+    grid-auto-flow: column;
+    padding-top: 20px;
 }
 
 .spacing{
