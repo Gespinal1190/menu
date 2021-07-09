@@ -8,25 +8,45 @@
     <script type="text/javascript" src="/scrapers.js"></script>
     <script type="text/javascript" src="/menu.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" id="admin.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/3.8.1/compiled.min.css?ver=3.8.1-update.4" type="text/css" media="all">
+    <link rel="manifest" href="css/button.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   
-<div >
 
-  <h1 class="resultados">
+<header>
+  <h1 class="k">
     nombre del plato , descripcion, precio 
   </h1>
+</header>
   
-  <div class="col-xl-1 col-lg-3">
-    <a class="btn btn-primary" href="/scrapers.js" role="button">Menu</a>
+  <div class="input-group">
+    <div class="form-outline">
+      <input type="search" id="form1" class="form-control" />
+      <label class="form-label" for="form1">Search</label>
+    </div>
+    <button type="button" class="btn btn-primary">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+
+
+  <div>
+
+    <a class="btn btn-primary" href="/menu.js" role="button">ver codigo scrapers</a>
+
+    <input type="button"
+    onclick="init(HTMLAnchorElement)"
+     value="MENU">
     
   </div>
 
-  <input type="button"
-  onclick="init()"
-   value="MENU">
-
-</div>
+ <div class="k">
+   <h3 >
+     hola
+   </h3>
+ </div>
 
 </body>
 </html>

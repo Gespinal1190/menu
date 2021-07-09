@@ -2,8 +2,9 @@
 const { write } = require("fs-extra");
 const puppeteer = require('puppeteer');
 
+const { contents, get } = require("cheerio/lib/api/traversing");
+
 const fs = require('fs-extra');
-const { contents } = require("cheerio/lib/api/traversing");
 const writeStream = fs.createWriteStream('menu.csv');
 
 
@@ -20,11 +21,26 @@ const buscar = (async () => {
 
     
     await page.waitFor(3000);
+
+
+   //buscando menu
     const menu = await page.$('div');
     console.log (await page.evaluate(el => el.textContent, menu));
 
+    //otra forma de buscar
+    // cosnts [el] = await page.$x('/html/body/ui-view/div[1]/div/div/div/ui-view/article/div[2]/div[1]/div[3]/div/article/div[4]/div/ui-view/div/div/div/div[2]/div[2]/div/div/div[1]');
+    // const src = await el.getProperty('src');
+    // const srcTxt = await src.jsonvalue();
 
+
+    //escribir en el archivo csv
     writeStream.write ('div\n');
+
+    // async function escribir() {
+    //     return page = [writeStream]; 
+    // }
+
+    // const websiteheading = $('div');
 
     console.log(menu)
 
