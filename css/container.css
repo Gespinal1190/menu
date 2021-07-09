@@ -12,6 +12,11 @@
     padding-top: 10px;
 }
 
-.fondo{
-    border-color: #303030;
+.container{
+    text-align: center;
+}
+
+.spacing{
+    padding: flex;
+    margin: 10px;
 }
