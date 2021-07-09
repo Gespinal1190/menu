@@ -31,6 +31,7 @@ const buscar = (async () => {
     await browser.close();
 })();
 
+
   
 
 // function sumar(a,b) {
