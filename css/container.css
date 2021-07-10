@@ -3,7 +3,7 @@
     background: #000000;
 }
 
-.header {
+.header{
     font-size: 20px;
         color: rgb(255, 255, 255);
         background: #000000;
@@ -11,6 +11,11 @@
         padding: flex;
         padding-top: 10px;
         text-align: center;
+}
+
+.card{
+    width: 200px;
+    align-self: start;
 }
 
 .col{
