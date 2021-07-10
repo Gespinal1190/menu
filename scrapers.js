@@ -2,6 +2,8 @@
 const { write } = require("fs-extra");
 const puppeteer = require('puppeteer');
 
+
+
 const { contents, get } = require("cheerio/lib/api/traversing");
 
 const fs = require('fs-extra');
@@ -17,7 +19,7 @@ const buscar = (async () => {
     });
 
     const page = await browser.newPage();
-    await page.goto ('https://www.menu.com.do/#!/n/100_montaditos/menu');
+    await page.goto ('https://loteriasdominicanas.com/');
 
     
     await page.waitFor(3000);
