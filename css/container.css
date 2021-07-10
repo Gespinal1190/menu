@@ -18,13 +18,10 @@
     align-self: start;
 }
 
-.col{
-    padding-top: 10px;
-}
 
 .container{
     grid-auto-flow: column;
-    padding-top: 20px;
+    padding-top: 10px;
    
 }
 
