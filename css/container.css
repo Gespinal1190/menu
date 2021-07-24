@@ -34,3 +34,12 @@
   
     width: 335px;
 }
+
+.imgRedonda {
+    width:100px;
+    height:100px;
+    border-radius:150px;
+    text-align: center;
+    stroke: black;
+    
+}
