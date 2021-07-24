@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <script type="text/javascript" src="/scrapers.js"></script>
+    <script type="text/javascript" src="/menu.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" id="admin.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/3.8.1/compiled.min.css?ver=3.8.1-update.4" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/container.css" >
+</head>
+
+<body>
+ <header class="container">
+  <h1 class="header">
+    Escanea el QR del negocio
+  </h1>
+  
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent3">
+    <div class="bg-light shadow-3 p-4">
+      <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+      <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+      <button class="btn btn-link btn-block m-0">Link 3</button>
+    </div>
+  </div>
+
+  
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col" class= "fistbutton">
+
+      <div class="spacing">
+          <div class="input-group">
+              <div class="form-outline">
+                <input type="search" id="form1" class="form-control" />
+                <label class="form-label" for="form1">Search</label>
+              </div>
+              <button  type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+              </button>
+          </div>
+      </div>
+
+      <a class="btn btn-primary"  href="#" role="button">Ver listado de negocios</a>
+
+      <input class="btn btn-primary" type="button"
+        onclick="menu()"
+        value="MENU">
+
+      </div>
+      </div>
+   </div>
+
+   </div>
+  </div> -->
+  <!-- href="./html/menu.html"  -->
+ </header>
+
+  <div class="container">
+   <div class="row" >
+     <div class="col">
+      <div class="card" style="width: 100%;">
+      <img src="./imagen/qr.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 1. Elige lo que quieres ordenar</h5>
+        <h5 class="card-text"> 2. Escribe tu nombre y numero de measa.</h5>
+        <h5 class="card-text"> 3. Poceder al pago.</h5>
+        <!-- <button onclick=' alert("tomarfoto")' type="button" class="btn btn-primary"> </button> -->
+        <!-- <a href="#" onclick= "camara()"  class="btn btn-primary"> Tomar foto</a> -->
+        <!-- <input type="file" capture="camera">
+        <input type="file" accept="image/*" capture="camera" id="camera" /> -->
+      </div>
+       </div>
+    </div>
+   </div>
+
+   <div class="container">
+    <div class="row">
+     <input class="btn btn-primary" type=file accept="image/*" >
+     <!-- capture=environment -->
+    </div>
+   </div>
+
+  </div>
+
+  <script src="./js/camara.js"> onclick </script>
+
+</body>
+
+
+
+</html>
