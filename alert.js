@@ -10,11 +10,27 @@ function miFunc2() {
  
 
 function ocultar(){
-  document.getElementById('obj1').style.display = 'none';
+  
+   ocultar = document.getElementById('obj1').style.display = 'none';
+  
 };
 
 function mostrar(){
   document.getElementById('obj1').style.display = 'block';
+};
+
+function sumar(){
+
+  document.querySelector('.cantidad').textContent = 1 + 1;
+
+  // function resultado(){
+    
+  //   var a = ( a + b);
+  //   sumar(2,1);
+  // }
+  // var a = 0;
+  //   a = a + 1;
+    // document.getElementById(".cantidad").textContent = a;
 };
 
 // function mostrar(){
