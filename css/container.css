@@ -80,7 +80,7 @@
 }
 
 #bordes{
-    padding: 5px;
+    /* padding: 5px; */
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
@@ -125,7 +125,9 @@
 
    position: absolute;
    width: 411;
-  
+   height: 25px;
+   left: 22px;
+   right: 22px;
    top: 230px;
    
     
