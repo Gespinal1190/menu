@@ -30,6 +30,19 @@
     margin: 10px;
 }
 
+#imagen{
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  left: 82px;
+  top: 43px;
+  
+  background: url(50762676_2054760484616362_2041411201467940864_n.png);
+  border: 1px solid #F7F7F7;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25))
+}
+
 #botonpago{
   
     width: 335px;
@@ -46,10 +59,24 @@
 
 .fuente {
     font-family:  'Arial Narrow Bold';
+    font-size: 20px;
+    position: absolute;
+    width: 190px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+      
 }
 
 .fuente2 {
     font-family:'Arial Narrow';
+    font-size: 16px;
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    left: -40px;
+    top: 30px;
+    
 }
 
 #bordes{
@@ -73,8 +100,8 @@
     position: absolute;
     width: 123px;
     height: 34px;
-    left: 90px;
-    top: 137px;
+    left: -90px;
+    top: 85px;
     color: #ffffff;
     background: #FFA95A;
     border-radius: 20px;
@@ -84,34 +111,44 @@
     position: absolute;
     width: 85px;
     height: 24px;
-    left: 245px;
-    top: 142px;
+    left: 80px;
+    top: 85px;
 }
 
 #submenu{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
 
-position: absolute;
-width: 325px;
-height: 30px;
-left: 22px;
-top: 220px;S
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+
+   position: absolute;
+   width: 325px;
+   height: 30px;
+   top: 220px;
+   right: 50px;
+   
     
 }
 
 #cabecera {
  position: absolute;
  grid-auto-rows: 10px;
- width: 360px;
+ width: 411px;
  height: 194px;
  left: 0px;
  top: 0px;
  background: #ffffff;
  border-radius: 0px 0px 40px 40px;
+}
+
+#restaurante{
+  position: absolute;
+  width: 158px;
+  height: 36px;
+  left: 169px;
+  top: 62px;
 }
 
 a {
