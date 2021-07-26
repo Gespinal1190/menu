@@ -59,9 +59,9 @@
 
 .fuente {
     font-family:  'Arial Narrow Bold';
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
-    width: 190px;
+    width: 200px;
     height: 21px;
     left: 0px;
     top: 0px;
@@ -70,7 +70,7 @@
 
 .fuente2 {
     font-family:'Arial Narrow';
-    font-size: 16px;
+    font-size: 12px;
     position: absolute;
     width: 55px;
     height: 15px;
@@ -124,7 +124,7 @@
    padding: 0px;
 
    position: absolute;
-   width: 367px;
+   width: 400x;
    height: 25px;
    left: 22px;
    top: 214px;
