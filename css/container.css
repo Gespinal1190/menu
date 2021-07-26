@@ -287,3 +287,34 @@ a:hover {
   box-sizing: border-box;
   border-radius: 100px;
 }
+
+#obj3{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 240px;
+  top: 360px;
+  
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+#cantidad{
+  position: absolute;
+  left: 210px;
+  /* right: 200px; */
+  top: 360px;
+  bottom: 53.22%;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  
+  color: #FFA95A;
+}
