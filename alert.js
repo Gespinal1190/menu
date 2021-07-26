@@ -10,7 +10,7 @@ function miFunc2() {
  
 
 function ocultar(){
- ocultar = document.getElementById('obj1').style.display = 'none';
+ document.getElementById('obj1').style.display = 'none';
   
 };
 
