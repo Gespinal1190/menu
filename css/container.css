@@ -238,7 +238,7 @@ a:hover {
 }
 
 #fondoplatos{
-  position: absolute;
+  position: relative;
   left: 1.46%;
   right: 1.22%;
   top: 31.47%;
