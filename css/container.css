@@ -262,3 +262,28 @@ a:hover {
   border-radius: 20px;
 
 }
+
+#obj1{
+  position: absolute;
+  width: 111px;
+  height: 30px;
+  left: 163px;
+  top: 360px;
+  
+  color: #ffffff;
+  background: #FFA95A;
+  border-radius: 20px;
+}
+
+#obj2{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 163px;
+  top: 360px;
+  
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
