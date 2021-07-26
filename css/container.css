@@ -178,6 +178,7 @@ a:hover {
 }
 
 #nombredelplato {
+  height: 400px;
   font-size: 8px;
   position: absolute;
   left: 6.33%;
@@ -196,7 +197,7 @@ a:hover {
   position: absolute;
   left: 6.33%;
   right: 34.55%;
-  top: 313px;
+  top: 318px;
   bottom: 57.59%;
   
   font-family: Poppins;
@@ -212,7 +213,7 @@ a:hover {
   position: absolute;
   left: 6.33%;
   right: 68.53%;
-  top: 361px;
+  top: 369px;
   bottom: 53.22%;
   
   font-family: Poppins;
