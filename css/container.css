@@ -250,7 +250,7 @@ a:hover {
   border-radius: 25px;
 }
 
-#agrearplato{
+/* #agrearplato{
   position: absolute;
   width: 111px;
   height: 30px;
@@ -258,10 +258,10 @@ a:hover {
   top: 360px;
   
   color: #ffffff;
-  background: #FFA95A;
+  background: #04AA6D;
   border-radius: 20px;
 
-}
+} */
 
 #obj1{
   position: absolute;
@@ -271,7 +271,7 @@ a:hover {
   top: 360px;
   
   color: #ffffff;
-  background: #FFA95A;
+  background: #04AA6D;
   border-radius: 20px;
 }
 
