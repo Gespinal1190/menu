@@ -182,7 +182,7 @@ a:hover {
   position: absolute;
   left: 6.33%;
   right: 34.55%;
-  top: 34.51%;
+  top: 284px;
   bottom: 62.58%;
   font-family: Poppins;
   font-style: normal;
@@ -195,7 +195,7 @@ a:hover {
 #detallesplato {
   position: absolute;
   left: 6.33%;
-  right: 34.55%;
+  right: 313px;
   top: 38.03%;
   bottom: 57.59%;
   
@@ -212,7 +212,7 @@ a:hover {
   position: absolute;
   left: 6.33%;
   right: 68.53%;
-  top: 43.86%;
+  top: 361px;
   bottom: 53.22%;
   
   font-family: Poppins;
@@ -230,7 +230,7 @@ a:hover {
   position: absolute;
   left: 69.1%;
   right: 6.01%;
-  top: 34.51%;
+  top: 284px;
   bottom: 53.34%;
   
   background: url(b88b2ad72291abce212b8640b141895b.jpg);
